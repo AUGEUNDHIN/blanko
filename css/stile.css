@@ -176,7 +176,7 @@ body {
   z-index: 5;
 }
 
-.header__container {
+.hero__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -358,6 +358,14 @@ body {
 
 /* .Landing */
 
+.landing__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  width: 1280px;
+  /* width: calc((100% - (var(--gap) * var(--offsets))) / (var(--offsets) + 1)); */
+}
+
 .landing__title {
   display: flex;
   width: 274px;
@@ -381,7 +389,7 @@ body {
   align-items: flex-start;
   gap: 25px;
   flex-shrink: 0;
-  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  background: url(<path-to-image>), var(--color-dark) 50% / cover no-repeat;
 }
 
 .landing__item_descr {
