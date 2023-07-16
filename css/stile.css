@@ -36,7 +36,7 @@ img {
   }
 
 body {
-    min-width: 1200px;
+    min-width: 1280px;
     font-family: "Roboto", "sans-serif";
     font-weight: 400;
 }
@@ -308,7 +308,7 @@ body {
   background-color: var(--color-dark);
 }
 
-.druc__image {
+.druk__image {
   margin: 0;
   margin-bottom: 59px;
   padding: 0;
